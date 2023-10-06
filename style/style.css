@@ -11,13 +11,87 @@ ul{
     list-style: none;
 }
 
-.blue {
+li{
+    margin-bottom: 20px;
+}
+
+/* !Ukraine */
+.ukraine .blue {
     width: var(--width-of-flag);
     background-color: blue;
     height: var(--height-of-flag);
 }  
-.yellow {
+.ukraine .yellow {
     width: var(--width-of-flag);
     background-color: yellow;
     height: var(--height-of-flag);
 } 
+
+/* !Japan */
+.japan .white {
+    width: var(--width-of-flag);
+    height: 200px;
+    background-color: white;
+    position: relative;
+}
+
+.japan .red{
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 100px;
+    border-radius: 50%;
+    background-color: red;
+    width: var(--height-of-flag);
+    height: var(--height-of-flag);
+}
+
+/* !Indonesia */
+
+.iceland .red {
+
+}
+
+.iceland .blue {
+    width: var(--width-of-flag);
+    height: 200px;
+    position: relative;
+    background-color: blue;
+}
+
+.iceland .white-horizontal {
+    z-index: 1;
+    position: absolute;
+    top: 75px;
+    width: var(--width-of-flag);
+    height: 50px;
+    background-color: white;
+}
+.iceland .white-vertical {
+    z-index: 1;
+    position: absolute;
+    left: 75px;
+    width: 50px;
+    height: 200px;
+    background-color: white;
+}
+
+.iceland .red-vertical {
+    z-index: 2;
+    position: absolute;
+    left: 85px;
+    width: 30px;
+    height: 200px;
+    background-color: red;
+}
+
+.iceland .red-horizontal {
+    z-index: 2;
+    position: absolute;
+    top: 85px;
+    width: var(--width-of-flag);
+    height: 30px;
+    background-color: red;
+}
+
+/* !Czech */
