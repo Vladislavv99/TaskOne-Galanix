@@ -1,0 +1,23 @@
+:root {
+    --width-of-flag: 300px;
+    --height-of-flag: 100px;
+}
+
+body {
+    background-color: beige;
+}
+
+ul{
+    list-style: none;
+}
+
+.blue {
+    width: var(--width-of-flag);
+    background-color: blue;
+    height: var(--height-of-flag);
+}  
+.yellow {
+    width: var(--width-of-flag);
+    background-color: yellow;
+    height: var(--height-of-flag);
+} 
