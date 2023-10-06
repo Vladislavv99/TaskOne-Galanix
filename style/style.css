@@ -95,3 +95,39 @@ li{
 }
 
 /* !Czech */
+
+.czech{
+    position: relative;
+}
+.czech .white {
+    width: var(--width-of-flag);
+    height: var(--height-of-flag);
+    background-color: white;
+}
+
+.czech .red {
+    width: var(--width-of-flag);
+    height: var(--height-of-flag);
+    background-color: red;
+}
+
+.czech .blue-top {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-right: 150px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 100px solid blue;
+}
+.czech .blue-bottom{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-right: 150px solid transparent;
+    border-left: 0px solid transparent;
+    border-top: 100px solid blue;
+}
